@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "path": "core"
+    },
+    {
+      "path": "webapp"
+    }
+  ],
+  "settings": {
+    "editor.rulers": [
+      100
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "typescript.preferences.importModuleSpecifier": "auto",
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.quoteStyle": "single",
+    "eslint.packageManager": "yarn",
+    "typescript.tsdk": "root/node_modules/typescript/lib",
+    "typescriptHero.imports.insertSemicolons": false,
+    "typescriptHero.imports.organizeOnSave": true,
+    "typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": false,
+    "typescriptHero.imports.grouping": [
+      "Plains",
+      "Modules",
+      "Workspace"
+    ],
+    "typescriptHero.imports.multiLineWrapThreshold": 100,
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "apollographql.vscode-apollo",
+      "editorconfig.editorconfig",
+      "rbbit.typescript-hero"
+    ]
+  }
+}
